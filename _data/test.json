@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "locationName": "Ranch1 Field1",
+      "codes": [
+        {
+          "code": "Code131"
+        },
+        {
+          "code": "Code213"
+        },
+        {
+          "code": "Code331"
+        }
+      ]
+    },
+    {
+      "locationName": "Ranch1 Field3",
+      "codes": [
+        {
+          "code": "Code77"
+        },
+        {
+          "code": "Code744"
+        },
+        {
+          "code": "Code78678"
+        }
+      ]
+    }
+  ]
+}

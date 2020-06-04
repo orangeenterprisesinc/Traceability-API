@@ -1,0 +1,56 @@
+[
+    {
+        "_id": "5ec294789da5e91decdb8f68",
+        "locationName": "Location1",
+        "user": "5ec293c5136d5a3b84c7f3de",
+        "createdAt": "2020-05-18T13:58:16.840Z",
+        "__v": 0,
+        "codes": [],
+        "id": "5ec294789da5e91decdb8f68"
+    },
+    {
+        "_id": "5ec2947f9da5e91decdb8f69",
+        "locationName": "Location2",
+        "user": "5ec293c5136d5a3b84c7f3de",
+        "createdAt": "2020-05-18T13:58:23.065Z",
+        "__v": 0,
+        "codes": [],
+        "id": "5ec2947f9da5e91decdb8f69"
+    },
+    {
+        "_id": "5ec294839da5e91decdb8f6a",
+        "locationName": "Location3",
+        "user": "5ec293c5136d5a3b84c7f3de",
+        "createdAt": "2020-05-18T13:58:27.192Z",
+        "__v": 0,
+        "codes": [],
+        "id": "5ec294839da5e91decdb8f6a"
+    },
+    {
+        "_id": "5ec294a39da5e91decdb8f6b",
+        "locationName": "Location4",
+        "user": "5ec293c5136d5a3b84c7f3e1",
+        "createdAt": "2020-05-18T13:58:59.939Z",
+        "__v": 0,
+        "codes": [],
+        "id": "5ec294a39da5e91decdb8f6b"
+    },
+    {
+        "_id": "5ec294b29da5e91decdb8f6c",
+        "locationName": "Location5",
+        "user": "5ec293c5136d5a3b84c7f3df",
+        "createdAt": "2020-05-18T13:59:14.588Z",
+        "__v": 0,
+        "codes": [],
+        "id": "5ec294b29da5e91decdb8f6c"
+    },
+    {
+        "_id": "5ec294c19da5e91decdb8f6d",
+        "locationName": "Location6",
+        "user": "5ec293c5136d5a3b84c7f3e0",
+        "createdAt": "2020-05-18T13:59:29.487Z",
+        "__v": 0,
+        "codes": [],
+        "id": "5ec294c19da5e91decdb8f6d"
+    }
+]

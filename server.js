@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const morgan = require('morgan');
 const colors = require('colors');
+const cookieParser = require('cookie-parser');
 const errorHandler = require('./middleware/error');
 const connectDB = require('./config/db');
 
@@ -13,11 +14,18 @@ connectDB();
 
 // Route files
 const locations = require('./routes/locations');
+const codes = require('./routes/codes');
+const customers = require('./routes/customers');
+const auth = require('./routes/auth');
+// const combined = require('./routes/combined');
 
 const app = express();
 
 // Body parser
 app.use(express.json());
+
+// Cookie parser
+app.use(cookieParser());
 
 // Dev loggin middleware
 if (process.env.NODE_ENV === 'development') {
@@ -26,6 +34,10 @@ if (process.env.NODE_ENV === 'development') {
 
 // Mount routers, versioning the api in the route
 app.use('/api/v1/locations', locations);
+app.use('/api/v1/codes', codes);
+app.use('/api/v1/auth', auth);
+app.use('/api/v1/customers', customers);
+// app.use('/api/v1/combined', combined);
 
 app.use(errorHandler);
 

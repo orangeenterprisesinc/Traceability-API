@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Alexander Shumonov",
+    "email": "ashumonov@gmail.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    "name": "Shlomo Pleban",
+    "email": "spleban@gmail.com",
+    "password": "123456",
+    "role": "publisher"
+  },
+  {
+    "name": "Kishore Annavarapu",
+    "email": "kishore@gmail.com",
+    "password": "123456",
+    "role": "user"
+  },
+  {
+    "name": "Udi Sosnik",
+    "email": "usosnik@gmail.com",
+    "password": "123456",
+    "role": "publisher"
+  }
+]
