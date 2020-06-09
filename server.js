@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const morgan = require('morgan');
 const colors = require('colors');
+const cors = require("cors");
 const cookieParser = require('cookie-parser');
 const errorHandler = require('./middleware/error');
 const connectDB = require('./config/db');
@@ -17,7 +18,7 @@ const locations = require('./routes/locations');
 const codes = require('./routes/codes');
 const customers = require('./routes/customers');
 const auth = require('./routes/auth');
-// const combined = require('./routes/combined');
+const appSettings = require("./config/appSettings");
 
 const app = express();
 
@@ -26,6 +27,12 @@ app.use(express.json());
 
 // Cookie parser
 app.use(cookieParser());
+app.use(
+    cors({
+      origin: [appSettings.appUrl], 
+      credentials: false,
+    })
+  );
 
 // Dev loggin middleware
 if (process.env.NODE_ENV === 'development') {
